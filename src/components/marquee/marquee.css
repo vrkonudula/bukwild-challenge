@@ -1,0 +1,103 @@
+.page-ui {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: div 1s ease-in-out;
+}
+
+.headline {
+  max-width: 38.25rem;
+  font-family: HelveticaNeue;
+  font-size: 5.25rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: -2.2px;
+  color: white;
+  margin-right: 3rem;
+  margin-bottom: 2rem;
+}
+
+.subhead {
+  max-width: 22.5rem;
+  margin: 1.438rem 2.5rem 1.375rem 0;
+  font-family: HelveticaNeue;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  color: white;
+}
+
+.call-to-action {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 11.188rem;
+}
+
+.cta {
+  font-family: HelveticaNeue;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: -0.63px;
+  color: var(--black);
+  margin-right: 3rem;
+  margin-left: 2rem;
+}
+
+.lets-talk {
+  display: flex;
+  font-family: HelveticaNeue;
+  font-size: 0.688rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.82;
+  letter-spacing: 1px;
+  color: black;
+  width: 16.454rem;
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+  color: #ffc001;
+  font-size: 0.7 rem;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .headline {
+    font-size: 4.5rem;
+  }
+
+  .page-ui {
+    flex-wrap: wrap;
+  }
+
+  .headline {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .call-to-action {
+    flex-wrap: wrap;
+  }
+
+  .headline {
+    font-size: 4rem;
+  }
+
+  .lets-talk {
+    margin-left: 2rem;
+  }
+}
